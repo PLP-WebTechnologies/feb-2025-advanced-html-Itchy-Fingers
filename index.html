@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Assignment Week 2</title>
+        </head>
+        <body>
+            <!--Adding audio files-->
+            <h2>Listening to some music</h2>
+            <audio controls>
+               <source src="music.m4a" type="audio/mp3">
+            </audio>
+
+            <!--Adding a video-->
+            <h2>Watching some videos</h2>
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+            </video>
+
+            <!--Designing a registration form with validations-->
+            <h2>Registration form</h2>
+            <form action="submit.php" method="post">
+                <label for="full_name">Full Name</label>
+                <input type="text" id="full_name" name="full_name" required placeholder="Your Full Name">
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="youremail@gmail.com">
+                <br><br>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <br><br>
+                <label for="date">Date</label>
+                <input type="text" id="date" name="date" placeholder="2/3/2019">
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="male">Male
+                <br><br>
+                <label for="hobby">Hobby:</label>
+                <input type="checkbox" name="hobby" value="reading">Reading
+                <input type="checkbox" name="hobby" value="writing">Writing
+                <input type="checkbox" name="hobby" value="travelling">Travelling
+                <input type="checkbox" name="hobby" value="skiing">Skiing
+                <input type="checkbox" name="hobby" value="fishing">Fishing
+                <br><br>
+                <label>County</label>
+                <select name="county" id="county">
+                    <option>--Select Your County--</option>
+                    <option value="Kisumu">Kisumu</option>
+                    <option value="Narok">Narok</option>
+                    <option value="Uasin Gishu">Uasin Gishu</option>
+                    <option value="Nairobi">Nairobi</option>
+                    <option value="Mombasa">Mombasa</option>
+                    <option value="Kisii">Kisii</option>
+                    <option value="Kakamega">Kakamega</option>
+                    <option value="Kiambu">Kiambu</option>
+                </select>
+            </form>
+
+           <!--Inserting an Image-->
+            <h2>Image Gallery</h2>
+            <img src="image1.jpg" alt="Image 1" width="400" height="400">
+            <img src="https://images.pexels.com/photos/30528098/pexels-photo-30528098/free-photo-of-close-up-portrait-of-fallow-deer-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2" width="400" height="400">
+
+            <!--Adding a table-->
+            <h2>Contacts</h2>
+            <table border="1">
+                <thread>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile Number</th>
+                        <th>Email</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td>Sospeter Owino</td>
+                        <td>P.O Box 5, Madiany</td>
+                        <td>0723734348</td>
+                        <td>sospeterowino@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>John Omondi</td>
+                        <td>P.O Box 17, Bondo</td>
+                        <td>0712344567</td>
+                        <td>omondijohn@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>James Macharia</td>
+                        <td>P.O Box 65 Nyeri</td>
+                        <td>0132436578</td>
+                        <td>jamesmacharia@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Josephine Muli</td>
+                        <td>P.O Box 23 Machakos</td>
+                        <td>0789987667</td>
+                        <td>mulijose@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Grace Bonareri</td>
+                        <td>P.O Box 45 Kisii</td>
+                        <td>0735656789</td>
+                        <td>bonarerigrace@gmail.com</td>
+                    </tr>
+                </tbody>
+                <tfooter>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile Number</th>
+                        <th>Email</th>
+                     </tr>
+                </tfooter>
+            </table>
+            
+            <!--Adding a list-->
+            <h2>Shopping list</h2>
+            <ol type="i" start="1">
+                <li>Apples</li>
+                <li>Oranges</li>
+                <li>Bananas</li>
+                <li>Kales</li>
+                <li>Spinach</li>
+                <li>Carrots</li>
+                <li>Tomatoes</li>
+                <li>Onions</li>
+                <li>Garlic</li>
+                <li>Ginger</li>
+                <li>Cooking Oil</li>
+                <li>Salt</li>
+            </ol>
+
+        </body>
+
+    </html>
